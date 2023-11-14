@@ -62,7 +62,7 @@ BitSmashAndDashAudioProcessorEditor::BitSmashAndDashAudioProcessorEditor (BitSma
 
     speedSlider.onValueChange = [this]
     {
-        *speedSliderParameter = bitDepthSlider.getValue();
+        *speedSliderParameter = speedSlider.getValue();
     };
 
     /*------------*/
